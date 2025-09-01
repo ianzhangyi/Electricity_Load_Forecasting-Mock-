@@ -28,8 +28,7 @@ Here, a public dataset is used to reproduce the methodology, including explorato
   - Standardization for neural networks
 
 - 🤖 **Models**
-  - Random Forest Regressor (baseline)
-  - XGBoost (limited hyperparameter tuning)
+  - Random Forest Regressor (baseline for tree-based regression model)
   - LSTM (PyTorch) for sequence modeling
 
 - 📈 **Evaluation**
@@ -63,7 +62,6 @@ Here, a public dataset is used to reproduce the methodology, including explorato
 | Random Forest         | 1023.20           | Using Weather Data as Weather Forecast         |
 | LSTM (PyTorch)  | 24117.29          | Captures sequential dependencies     |
 
-*(Replace with your actual results if available.)*
 
 ---
 
