@@ -38,33 +38,15 @@ Here, a public dataset is used to reproduce the methodology, including explorato
   - Learning curves for model capacity
   - Predicted vs. actual demand visualization
 
----
-
-## Repository Structure
-```
-electricity-forecasting/
-├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_random_forest.ipynb
-│   ├── 03_xgboost.ipynb
-│   └── 04_lstm_pytorch.ipynb
-├── charts/              # Exported plots
-├── data/                # (empty, dataset downloaded separately from Kaggle)
-├── requirements.txt
-└── README.md
-```
 
 ---
 
 ## Quickstart
 
 ### 1. Install dependencies
-```bash
-pip install -r requirements.txt
-```
 
 ### 2. Download dataset
-- Kaggle dataset: *[Electricity Load + Weather Data](https://www.kaggle.com/)*  
+- Kaggle dataset: *[Electricity Load + Weather Data]([https://www.kaggle.com/](https://www.kaggle.com/datasets/saurabhshahane/electricity-load-forecasting/data))*  
 - Place CSV file under `data/` folder.
 
 ### 3. Run notebooks
